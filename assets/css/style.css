@@ -1,3 +1,8 @@
+:root {
+    --bs-link-color: #198754;
+    --bs-link-hover-color: #146C43;
+}
+
 .btn {
     --bs-btn-bg: #198754;
     --bs-btn-border-color: #146C43;
@@ -6,15 +11,23 @@
     --bs-btn-active-bg: #0C5754;
 }
 
+section {
+    scroll-margin-top: 7rem;
+}
+
+main {
+    margin-top: 5.5rem;
+}
+
 .navbar-brand img {
     width: 50px;
 }
 
 /* Tamanho do carousel */
-
 .carousel-item {
     height: 500px;
 }
+
 .carousel-item img {
     height: 100%;
     object-fit: cover;
@@ -27,4 +40,9 @@
     height: 100%;
     background: linear-gradient(transparent, rgb(31, 31, 31));
     position: absolute;
+}
+
+.card-menu img {
+    height: 300px;
+    object-fit: cover;
 }
