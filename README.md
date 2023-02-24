@@ -1,2 +1,2 @@
 # page-coffee
-Pagina responsiva utilizando um framework
+Pagina responsiva utilizando o framework css bootstrap
